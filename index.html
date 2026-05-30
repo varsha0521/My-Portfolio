@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- SCROLL PROGRESS -->
+  <div class="scroll-line" id="scrollLine"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="logo"></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <h1>VARSHINI<br><span>DAMODARAN</span></h1>
+    <p class="role"></p>
+    <p class="desc">
+      I'm Learning to build web that feel alive — clean, fast,
+      and designed to leave an impression.
+    </p>
+    <div class="cta">
+      <a href="#projects" class="btn-primary">View My Work →</a>
+      <a href="#contact" class="btn-outline">Let's Talk</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-text reveal">
+      <p class="section-label">Who I Am</p>
+      <h2 class="section-title">Creating Atrractive<br>Web Experiences</h2>
+      <p>
+        I'm a frontend developer with a passion for building
+        beautiful, functional, and accessible web experiences.
+      </p>
+      <p>
+        I'm studying design trends,
+        experimenting with animations, and finding ways to
+        make the web a more interesting place.
+      </p>
+      <a href="#" class="btn-primary" style="margin-top:32px;">
+        Download CV →
+      </a>
+    </div>
+
+    <div class="about-stats reveal">
+      <div class="stat-box" data-num="5+">
+        <p>Projects Completed</p>
+      </div>
+      <div class="stat-box" data-num="2+">
+        <p>Years Learning</p>
+      </div>
+      <div class="stat-box" data-num="5+">
+        <p>Technologies</p>
+      </div>
+      <div class="stat-box" data-num="∞">
+        <p>Ideas in Progress</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="reveal">
+      <p class="section-label">What I Learned</p>
+      <h2 class="section-title">My Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <span class="skill-icon">🌐</span>
+        <span class="skill-name">HTML5</span>
+        <span class="skill-pct">90%</span>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="90"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-icon">🎨</span>
+        <span class="skill-name">CSS3 & Animations</span>
+        <span class="skill-pct">85%</span>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="85"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-icon">⚡</span>
+        <span class="skill-name">JavaScript</span>
+        <span class="skill-pct">70%</span>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="70"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-icon">⚛️</span>
+        <span class="skill-name">Bootstrap5</span>
+        <span class="skill-pct">75%</span>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="75"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-icon">📐</span>
+        <span class="skill-name">Responsive Design</span>
+        <span class="skill-pct">85%</span>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="85"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-icon">🛠️</span>
+        <span class="skill-name">Git & GitHub</span>
+        <span class="skill-pct">50%</span>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="50"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="reveal">
+      <p class="section-label">— What I've Built</p>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-thumb project-thumb-1">PROJ 01</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+          </div>
+          <h3 class="project-title">My-Portfolio</h3>
+          <p class="project-desc">
+           Designed and built my own portfolio site using pure HTML,CSS and JS. 
+           Includes scroll-reveal animations,interactive project cards, and a working conntact form.
+          </p>
+          <a href="#" class="project-link">View Project →</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb project-thumb-2">PROJ 02</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">HTML,CSS&JS</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Python</span>
+            <span class="tag">File handling</span>
+          </div>
+          <h3 class="project-title">AI-Resume Analyzer</h3>
+          <p class="project-desc">
+          AI Resume Analyzer is a Flsk-based web application that analyzes PDF resumes,detects technical
+          skills and calculates an ATS score. It provides skill matching and missing and missing skill analysis
+          through a simple user interface.
+          </p>
+          <a href="#" class="project-link">View Project →</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb project-thumb-3">PROJ 03</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+            <span class="tag">Bootstrap5</span>
+          </div>
+          <h3 class="project-title">Restaurant Landing Page</h3>
+          <p class="project-desc">
+           It's a website that is created for a Restaurant - We can see the menu, order, 
+           dine in and also able leave our feedback.
+          </p>
+          <a href="#" class="project-link">View Project →</a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="reveal">
+      <p class="section-label">Get In Touch</p>
+      <h2 class="contact-big">
+        LET'S<br>WORK<br><em>TOGETHER.</em>
+      </h2>
+      <div class="contact-info">
+        <a href="mailto:varshavarshitha2107@gmail.com">📧 varshavarshitha2107@gmail.com</a>
+        <a href="#">🔗 linkedin.com/in/yourhandle</a>
+        <a href="#">💻 github.com/yourhandle</a>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <p class="section-label"> Send A Message</p>
+      <div class="contact-form">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="Your Name" />
+        </div>
+        <div class="form-group">
+          <label>Your Email</label>
+          <input type="email" placeholder="you@example.com" />
+        </div>
+        <div class="form-group">
+          <label>Feedback</label>
+          <textarea rows="5" placeholder="Give me a Feedback about my Projects..."></textarea>
+        </div>
+        <button class="form-submit">Send Feedback →</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
