@@ -1,7 +1,7 @@
 # My Portfolio
 
 ## About Me
-Hi, I'm Joe.
+Hi, I'm Varshini.
 
 I am a Final Year Engineering Student passionate about Web Development and Technology. I enjoy building websites using HTML, CSS, and JavaScript and continuously improving my skills through hands-on projects.
 
@@ -33,7 +33,8 @@ Expected Graduation: 2026
 
 ## Contact
 - GitHub: https://github.com/varsha0521
-- LinkedIn: Add Your LinkedIn Profile Link Here
+- LinkedIn: https://www.linkedin.com/in/
+varshini96/
 
 ## Live Demo
 Add your portfolio website link here after enabling GitHub Pages.
